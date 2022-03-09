@@ -124,13 +124,21 @@ nav {
 .newinfo_box h2 {
   font-size: 1.8em;
 	margin-right: 32px;
+	margin-left: 10px;
 	color: #55b75a;
+	width: 130px;
+	background: red;
 }
 .newinfo_contents li {
 	display: flex;
 	font-size: 1.6em;;
 }
-
+time {
+	margin-right: 32px;
+}
+.newinfo_contents li {
+	margin-bottom: 10px;
+}
 .newinfo_box {
 	position: absolute;
 	bottom: 30px;
