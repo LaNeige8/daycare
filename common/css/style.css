@@ -154,6 +154,9 @@ time {
 
 .section_inner > h2 {
 	font-size: 3.0em;
+	padding-top: 123px;
+	padding-bottom: 52px;
+	text-align: center;
 }
 
 .circle{
@@ -164,6 +167,7 @@ time {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 18px;
 }
 .detail_sentence {
 	display: flex;
@@ -180,4 +184,37 @@ time {
 
 .detail_sentence > p {
 	font-size: 1.9em;
+}
+
+.detail {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 48px;
+}
+.detail_sentence {
+}
+
+.contents {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.section_inner {
+	padding: 0 230px;
+}
+
+.routine {
+	position: relative;
+}
+.routine:after {
+	position: absolute;
+	content: "";
+	height: 20px;
+	top: 0;
+	width: 100%;
+	background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 26, from(#FFF4EA), color-stop(0.49, #FFF4EA), color-stop(0.51, #fff), to(#fff));
+	-webkit-background-size: 36px 100%;
 }
