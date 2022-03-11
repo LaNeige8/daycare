@@ -192,8 +192,6 @@ time {
 	align-items: center;
 	margin-bottom: 48px;
 }
-.detail_sentence {
-}
 
 .contents {
 	display: flex;
@@ -217,4 +215,16 @@ time {
 	width: 100%;
 	background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 26, from(#FFF4EA), color-stop(0.49, #FFF4EA), color-stop(0.51, #fff), to(#fff));
 	-webkit-background-size: 36px 100%;
+}
+
+/**/
+.routine .circle{
+  width: 241px;
+  height: 241px;
+  border-radius: 50%;
+  background: #FFF4EA;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 18px;
 }
