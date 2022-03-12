@@ -247,3 +247,28 @@ time {
 	background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 26, from(#FFF4EA), color-stop(0.49, #FFF4EA), color-stop(0.51, #fff), to(#fff));
 	-webkit-background-size: 36px 100%;
 }
+
+/* ====================================================
++6: footer Area
+====================================================*/
+footer {
+	position: relative;
+}
+
+footer:after {
+	position: absolute;
+	content: "";
+	height: 20px;
+	top: 0;
+	width: 100%;
+	background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 26, from(#FFF4EA), color-stop(0.49, #FFF4EA), color-stop(0.51, #fff), to(#fff));
+	-webkit-background-size: 36px 100%;
+}
+
+footer p {
+	font-size: 1.0em;
+	font-weight: 600;
+	padding-top: 55px;
+	padding-bottom: 34px;
+	text-align: center;
+}
