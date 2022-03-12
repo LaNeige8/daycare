@@ -192,7 +192,6 @@ time {
 	align-items: center;
 	margin-bottom: 48px;
 	margin-left: 60px;
-	background: yellow;
 }
 
 .contents {
@@ -202,13 +201,13 @@ time {
 	justify-content: center;
 	margin-left: -60px;
 	margin-right: -60px;
-	background: red;
 }
 
 .section_inner {
 	padding: 0 230px;
 }
 
+/*routine*/
 .routine {
 	position: relative;
 }
@@ -222,7 +221,6 @@ time {
 	-webkit-background-size: 36px 100%;
 }
 
-/**/
 .routine .circle{
   width: 241px;
   height: 241px;
@@ -232,4 +230,20 @@ time {
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 18px;
+}
+
+/*fee*/
+.fee {
+	background: #FFF4EA;
+	position: relative;
+}
+
+.fee:after {
+	position: absolute;
+	content: "";
+	height: 20px;
+	top: 0;
+	width: 100%;
+	background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 26, from(#FFF4EA), color-stop(0.49, #FFF4EA), color-stop(0.51, #fff), to(#fff));
+	-webkit-background-size: 36px 100%;
 }
