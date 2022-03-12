@@ -191,13 +191,18 @@ time {
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 48px;
+	margin-left: 60px;
+	background: yellow;
 }
 
 .contents {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
+	margin-left: -60px;
+	margin-right: -60px;
+	background: red;
 }
 
 .section_inner {
