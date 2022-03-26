@@ -1,8 +1,8 @@
 @charset "UTF-8"
 /*===== NOTES ========
-
+​
 	last-updated: 2022.03.14
-
+​
 	+1: Element
 	+2: Header Area
 	+3: Navigation Area
@@ -10,7 +10,7 @@
 	+5: Main Area
 	+6: Footer Area
 	+7: Media Query (max-width:768px)
-
+​
 ====================*/
 /* ====================================================
 +1: Element
@@ -42,7 +42,7 @@ a {
 	text-decoration: none;
 	color: #463729;
 }
-
+​
 /* ====================================================
 +2: Header Area
 ====================================================*/
@@ -53,7 +53,7 @@ header {
 h1 {
 	margin-top: 35px;
 }
-
+​
 /* ====================================================
 +3: Navigation Area
 ====================================================*/
@@ -69,19 +69,19 @@ nav {
 .nav_main li a > img {
 	padding-right: 7px;
 }
-
+​
 .nav_main > li > a:hover {
 	box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
   transform: scale(0.9);
 }
-
+​
 /* ====================================================
 +4: Main Visual
 ====================================================*/
 .main_visual {
 	background: #FFF4EA;
   margin: 0 auto;
-	background-image: url(../common/img/main_sun.png);
+	background-image: url(../img/main_sun.png);
 	background-position: left 109px;
 	background-repeat: no-repeat;
 }
@@ -107,7 +107,7 @@ nav {
 	background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 26, from(#FFF), color-stop(0.49, #FFF), color-stop(0.51, rgba(255,255,255,0)), to(rgba(255,255,255,0)));
 	-webkit-background-size: 36px 100%;
 }
-
+​
 .main_visual_img:after{
 	position: absolute;
 	content: "";
@@ -118,7 +118,7 @@ nav {
 	background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 26, from(rgba(255,255,255,0)), color-stop(0.49, rgba(255,255,255,0)), color-stop(0.51, #FFF4EA), to(#FFF4EA));
 	-webkit-background-size: 36px 100%;
 }
-
+​
 .newinfo_box {
 	background-color: #fff;
 	max-width: 1000px;
@@ -158,21 +158,21 @@ time {
 .section_inner {
 	padding: 0 10px;
 }
-
+​
 .about {
 	background-color: #FFF4EA;
-	background-image: url(../common/img/about_star_left1.png), url(../common/img/about_rabbit.png);
+	background-image: url(../img/about_star_left1.png), url(../img/about_rabbit.png);
   background-position: left 10%, left 30%;
   background-repeat: no-repeat, no-repeat;
 }
-
+​
 .section_inner > h2 {
 	font-size: 3.0em;
 	padding-top: 123px;
 	padding-bottom: 52px;
 	text-align: center;
 }
-
+​
 .circle{
   width: 241px;
   height: 241px;
@@ -195,11 +195,11 @@ time {
 	align-items: center;
 	justify-content: center;
 }
-
+​
 .detail_sentence > p {
 	font-size: 1.9em;
 }
-
+​
 .detail {
 	display: flex;
 	flex-direction: column;
@@ -207,7 +207,7 @@ time {
 	margin-bottom: 48px;
 	margin-left: 60px;
 }
-
+​
 .contents {
 	display: flex;
 	flex-wrap: wrap;
@@ -215,7 +215,7 @@ time {
 	justify-content: center;
 	margin-left: -60px;
 }
-
+​
 /*routine*/
 .routine {
 	position: relative;
@@ -229,7 +229,7 @@ time {
 	background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 26, from(#FFF4EA), color-stop(0.49, #FFF4EA), color-stop(0.51, #fff), to(#fff));
 	-webkit-background-size: 36px 100%;
 }
-
+​
 .routine .circle{
   width: 241px;
   height: 241px;
@@ -240,13 +240,13 @@ time {
 	justify-content: center;
 	margin-bottom: 18px;
 }
-
+​
 /*fee*/
 .fee {
 	background: #FFF4EA;
 	position: relative;
 }
-
+​
 .fee:after {
 	position: absolute;
 	content: "";
@@ -256,14 +256,14 @@ time {
 	background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 26, from(#FFF4EA), color-stop(0.49, #FFF4EA), color-stop(0.51, #fff), to(#fff));
 	-webkit-background-size: 36px 100%;
 }
-
+​
 /* ====================================================
 +6: footer Area
 ====================================================*/
 footer {
 	position: relative;
 }
-
+​
 footer:after {
 	position: absolute;
 	content: "";
@@ -273,7 +273,7 @@ footer:after {
 	background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 26, from(#FFF4EA), color-stop(0.49, #FFF4EA), color-stop(0.51, #fff), to(#fff));
 	-webkit-background-size: 36px 100%;
 }
-
+​
 footer p {
 	font-size: 1.0em;
 	font-weight: 600;
