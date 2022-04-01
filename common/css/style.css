@@ -1,7 +1,7 @@
 @charset "UTF-8"
 /*===== NOTES ========
 
-	last-updated: 2022.03.14
+	last-updated: 2022.04.01
 
 	+1: Element
 	+2: Header Area
@@ -81,8 +81,8 @@ nav {
 .main_visual {
 	background: #FFF4EA;
   margin: 0 auto;
-	background-image: url(../common/img/main_sun.png);
-	background-position: left 109px;
+	background-image: url(../img/main_sun.png);
+	background-position: top 50% left 50%;
 	background-repeat: no-repeat;
 }
 /*
@@ -161,9 +161,9 @@ time {
 
 .about {
 	background-color: #FFF4EA;
-	background-image: url(../common/img/about_star_left1.png), url(../common/img/about_rabbit.png);
-  background-position: left 10%, left 30%;
-  background-repeat: no-repeat, no-repeat;
+	background-image: url(../img/about_star_left1.png), url(../img/about_rabbit.png), url(../img/about_diamond1.png),url(../img/about_diamond2.png),url(../img/about_diamond3.png), url(../img/about_sprout.png), url(../img/about_star_right1.png), url(../img/about_rainbow.png), url(../img/about_star_left2.png), url(../img/about_star_left3.png), url(../img/about_star_right2.png), url(../img/about_star_right3.png);
+  background-position: top 16% left 6%, top 9% left 12%, top 6.3% left 45.5%, top 4% left 53%, top 6% left 54%, top 6% left 50%, top 6% left 70%, top 10% left 85%, top 70% left 13%,top 85% left 10%,top 67% left 88%,top 80% left 95%;
+  background-repeat: no-repeat;
 }
 
 .section_inner > h2 {
@@ -219,6 +219,13 @@ time {
 /*routine*/
 .routine {
 	position: relative;
+	background-image: url(../img/about_diamond1.png),url(../img/about_diamond2.png),url(../img/about_diamond3.png), url(../img/about_sprout.png), 
+	url(../img/routine_star1.png), url(../img/routine_squirrel.png), url(../img/routine_squirrel2.png), url(../img/routine_diamond1.png), url(../img/routine_sunflower.png), url(../img/routine_tulip.png), 
+	url(../img/routine_cloud.png), url(../img/routine_star2.png), url(../img/routine_rainbow.png), url(../img/routine_diamond2.png), url(../img/routine_bird.png);
+  background-position: top 10.3% left 45.5%, top 8% left 53%, top 10% left 54%, top 10% left 50%,
+	top 16% left 20%, top 30% left 10%, top 25% left 23%, top 40% left 6%, top 60% left 4%, top 85% left 13%,
+	top 16% left 83%,top 23% left 95%, top 40% left 94%,top 60% left 98%, top 70% left 90%;
+  background-repeat: no-repeat;
 }
 .routine:after {
 	position: absolute;
@@ -245,6 +252,13 @@ time {
 .fee {
 	background: #FFF4EA;
 	position: relative;
+	background-image: url(../img/about_diamond1.png),url(../img/about_diamond2.png),url(../img/about_diamond3.png), url(../img/about_sprout.png), 
+	url(../img/fee_sun.png), url(../img/fee_star1.png), url(../img/fee_diamond1.png), url(../img/fee_balloon.png),  
+	url(../img/fee_ladybug.png), url(../img/fee_diamond2.png), url(../img/fee_bird.png), url(../img/fee_star2.png);
+  background-position: top 10.3% left 45.5%, top 8% left 53%, top 10% left 54%, top 10% left 50%,
+	top 16% left 20%, top 30% left 10%, top 50% left 16%, top 70% left 6%,
+	top 16% left 70%,top 20% left 80%, top 42% left 90%, top 80% left 94%;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .fee:after {
